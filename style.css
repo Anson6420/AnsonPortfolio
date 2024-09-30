@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 3px;
+
+}
+#name{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+
+#li1{
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+}
+
+#li1 a:hover{
+    color: rgb(83, 38, 230);
+    font-weight: 400;
+    animation: touch 0.50s;
+}
+
+@keyframes touch{
+    25%{
+        transform: scale(2);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1);
+    }
+}
+
+
+#img1{
+    border-radius: 25%;
+    
+}
+#home{
+background-color: rgba(83, 38, 230, 0.109) ;
+border-radius: 20px;
+
+margin: 10px;
+}
+
+#name{
+    color:  rgb(83, 38, 230);
+}
+
+
+#div1{
+    text-align: center;
+}
+#about1{
+    text-decoration: none;
+}
+
+#skills{
+    text-align: center;
+}
+#cv{
+    background-color: rgb(83, 38, 230);
+    color: white;
+    border: none;
+    
+}
+#cv:hover{
+    background-color:rgba(83, 38, 230, 0.109);
+    color: #2d2248;
+   
+}
+/* contact */
+.contact-section {
+    margin-top: 50px;
+}
+
+.contact-info h5 {
+    margin-bottom: 15px;
+    color: rgb(83, 38, 230); /* Orange-red color */
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color:  rgb(83, 38, 230);
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #000;
+}
+
+.form-section h5 {
+    margin-bottom: 20px;
+    color: rgb(83, 38, 230);
+}
+
+
+
+
+#square{
+    border: 0px solid rgb(139, 33, 33); 
+    box-shadow: 0px 4px 10px rgb(83, 38, 230);
+    height: 300px;
+}
+
+#submit{
+    background-color: rgb(83, 38, 230);
+    color: rgb(239, 239, 239);
+    border: none;
+    
+
+}
+#submit:hover{
+    background-color: rgb(83, 38, 230);
+    color: black;
+}
+
+
+#contact1{
+    text-decoration: none;
+}
+/* footer */
+#up-arrow{
+    background-image: linear-gradient(to bottom right, rgb(224, 204, 230) , rgb(171, 197, 220));
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
